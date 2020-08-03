@@ -72,7 +72,7 @@ public class XMLParser {
             }
         }
 
-        node = doc.getElementsByTagName("СвЮЛУч").item(0);
+        node = doc.getElementsByTagName("СвЮЛУч").item(1);
         namedNodeMap = node.getAttributes();
         n = namedNodeMap.getNamedItem("КПП");
         n.setNodeValue(xmlParams.kpp);

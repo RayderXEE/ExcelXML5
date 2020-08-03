@@ -22,7 +22,6 @@ public class XMLParams {
 
     String kpp;
 
-
     public XMLParams(ExcelParams excelParams) {
         this.excelParams = excelParams;
         fillParams();

@@ -32,8 +32,9 @@ public class DemoApplication implements CommandLineRunner {
 						return name.endsWith(".xlsx");
 					}
 				})) {
-			//excelFilePath = s;
-			ExcelXMLa excelXMLa = new ExcelXMLa(s);
+
+			System.out.println(s);
+			ExcelXMLb excelXMLb = new ExcelXMLb(s);
 		}
 
 	}
